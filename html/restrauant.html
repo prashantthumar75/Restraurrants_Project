@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Restrauant page</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/restrauant.css">
+</head>
+
+<body class="container-fluid">
+    <header class="container-fluid">
+        <div class="mt-4 row">
+            <div class="col-md-6 text-end">
+                <h3>PINCHOFSALT</h3>
+            </div>
+            <div class="col-md-6 text-end">
+                <h3 class="text-decoration-underline">UserName</h3>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">PINCH OF SALT
+                    <img class="img-fluid" src="./logo/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+                        <li class="nav-item ms-5">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown ms-5">
+                            <a class="nav-link dropdown-toggle" href="#" id="CuisineDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Cuisine
+                            </a>
+                            <ul class="dropdown-menu navTitleDropdown" aria-labelledby="CuisineDropdown">
+                                <li><a class="dropdown-item" href="#">Japenese</a></li>
+                                <li><a class="dropdown-item" href="#">Western</a></li>
+                                <li><a class="dropdown-item" href="#">Indian</a></li>
+                                <li><a class="dropdown-item" href="#">Chinese</a></li>
+                                <li><a class="dropdown-item" href="#">Others</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown ms-5">
+                            <a class="nav-link dropdown-toggle" href="#" id="locationDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Location/Region
+                            </a>
+                            <ul class="dropdown-menu navTitleDropdown" aria-labelledby="locationDropdown">
+                                <li><a class="dropdown-item" href="#">Central</a></li>
+                                <li><a class="dropdown-item" href="#">East</a></li>
+                                <li><a class="dropdown-item" href="#">North-East</a></li>
+                                <li><a class="dropdown-item" href="#">North</a></li>
+                                <li><a class="dropdown-item" href="#">West</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="RestoCarosal" class="mt-3">
+    </div>
+    <div>
+        <a class="carousel-control-prev" id="leftArrow" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+            <span><i class="fas fa-chevron-left arrowIcon"></i></span>
+          </a>
+          <a class="carousel-control-next" id="rightArrow"  href="#carouselExampleControls" role="button" data-bs-slide="next">
+            <span><i class="fas fa-chevron-right arrowIcon m-5"></i></span>
+          </a>
+    </div>
+    <!-- <div class="container">
+        <div class=" d-flex justify-content-between mt-3">
+            <h2>restrauant Name 1</h2>
+            <div class="d-flex justify-content-center">
+                <span><i id="s1" class="fa fa-star p-2"></i></span>
+                <span><i id="s2" class="fa fa-star p-2"></i></span>
+                <span><i id="s3" class="fa fa-star p-2"></i></span>
+                <span><i id="s4" class="fa fa-star p-2"></i></span>
+                <span><i id="s5" class="fa fa-star p-2"></i></span>
+            </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum animi expedita voluptatem excepturi libero.
+            Quos esse maiores optio magnam culpa. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+            deserunt earum. Reprehenderit dolorum incidunt numquam velit, sint inventore facere? Obcaecati animi
+            laboriosam doloremque voluptatum nostrum debitis possimus expedita ad. Minima!</p>
+        <div class="d-flex">
+            <h6>Restrauant Opening Hours :</h6>
+            <h6 class="ms-2"> Lorem ipsum dolor sit amet consectetrum animi expedita voluptatem excepturi libero.</h6>
+        </div>
+        <div class="d-flex mt-2">
+            <h6>Restrauant Address :</h6>
+            <h6 class="ms-2"> Lorem ipsum  expedita voluptatem excepturi libero.</h6>
+        </div>
+    </div> -->
+    <footer class="pt-5 mt-5 pb-2">
+        <div class="row px-5">
+            <div class="col-md-4">
+                <h5>About US</h5>
+                <p>Terms</p>
+                <div class="mt-3">
+                    <h5>Contact US <i class="fas fa-phone-alt"></i></h5>
+                    <span>pinchofsalt@gmail.com</span>
+                    <p>+65 6890 3450</p>
+                </div>
+            </div>
+            <div class="col-md-4 ps-5">
+                <div class="ms-5">
+                    <h5>GET HELP</h5>
+                    <p>FAQs</h6>
+                </div>
+            </div>
+            <div class="col-md-4 text-end pe-5">
+                <h5 class="pe-4">Follow us</h5>
+                <ul class="list-unstyled socialMedia">
+                    <li>
+                        <a href="#">
+                            <i class="p-3 fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="p-3 fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="p-3 fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/restrauant.js"></script>
+</body>
+
+</html>

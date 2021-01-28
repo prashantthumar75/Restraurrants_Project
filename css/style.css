@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+/* navbar  */
+.navbar {
+	/* background-color: rgba(255, 127, 80, 0.986) !important; */
+}
+ .navTitleDropdown li a {
+	font-size: 18px ;
+} 
+ .navTitleDropdown li a:hover {
+	background-color: rgb(219, 133, 99) !important;
+ }
+.navbar-brand img {
+	width: 40px;
+}
+.nav-link,
+.navbar-brand {
+	font-size: 22px;
+}
+
+/* Restrauant List  */
+.restrauantList p {
+	font-size: 20px;
+	margin-bottom: 0;
+}
+.restrauantImg{
+	width: 250px;
+	height: 180px;
+}
+
+/* footer  */
+footer {
+    background-color: cornsilk;
+}
+.socialMedia li{
+	display: inline;
+}
+.socialMedia li a{
+	text-decoration: none;
+}
+
+/* star */
+.fa-star {
+color: #CCC;
+}

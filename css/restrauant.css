@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.arrowIcon {
+    font-size: 40px;
+}
+.mainImageRestro {
+	width: 500px;
+    height: 300px;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.otherImageRestro {
+    width: 300px;
+    height: 300px;
+    opacity: 0.5;
+}
+
+/* .carousel-control-prev {
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+}
+.carousel-control-next {
+    align-items: center;
+    justify-content: end;
+    text-align: center;
+} */
