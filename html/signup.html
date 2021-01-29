@@ -36,19 +36,12 @@
                     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
                 </div>
             </div>
-            <!-- <div class="mb-3 ms-1 d-flex justify-content-md-between">
-                <label class="form-check-label" for="exampleCheck1">Remember me</label>
-                <label class="switch">
-                    <input type="checkbox" checked>
-                    <span class="slider round"></span>
-                </label>
-            </div> -->
             <button type="submit" class="btn btn-outline-primary col-5 mx-auto d-block loginBtn">Log In</button>
         </form>
     </div>
         <!-- Sign Up form  -->
         <div id="signupSection">
-        <form class="mx-5">
+        <form class="mx-5" id="signUpForm" action="../index.html" method="POST">
             <div id="signupDataInput">
                 <div class="row mb-3">
                     <div class="col-auto">
@@ -63,19 +56,20 @@
                         placeholder="Email Id" required>
                 </div>
                 <div class="mb-3">
-                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Username" required>
+                    <input type="text" class="form-control" id="mobileNumber" aria-describedby="emailHelp"
+                        placeholder="Mobile Number" required>
                 </div>
                 <div class="mb-3">
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
+                    <input type="password" class="form-control" id="password" placeholder="Password" required>
                 </div>
                 <select class="form-select mb-3" aria-label="Default select example" required>
                     <option selected>Gender</option>
-                    <option value="1">Male</option>
-                    <option value="2">Female</option>
-                  </select>
+                    <option id="gender" value="Male">Male</option>
+                    <option id="gender" value="Female">Female</option>
+                </select>
                 <div class="mb-3">
-                    <textarea class="form-control" id="exampleFormControlTextarea" rows="3" placeholder="Address" required></textarea>
-                  </div>
+                    <textarea class="form-control" id="address" rows="3" placeholder="Address" required></textarea>
+                </div>
             </div>
             <button type="submit" class="btn btn-outline-primary col-5 mx-auto d-block signupBtn">Sign Up</button>
         </form>

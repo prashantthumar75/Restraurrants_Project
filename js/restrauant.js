@@ -4,26 +4,15 @@ $(document).ready(function () {
     $('#myBtn').click(function(){
         console.log('btn clicked');
     });
-var num = 1;
-$('#leftArrow').click(function(){
-    console.log('its clicked left');
-    if(num <=0){
-        num--;
-    }
-});
-$('#rightArrow').click(function(){
-    console.log('its clicked right');
-    if(num >=11){
-        num++;
-    }
-});
+
+    // $("a").attr("href", '?fruit=' + 'apple');
 
 $.get("http://127.0.0.1:8080/restaurants",
     function (data, status) {
         // console.log(data);
         let restrauntHtml = "";
         // data.forEach(e => {
-        let e = data[num];
+        let e = data[2];
         let restrauntDetails =
     `<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner text-center" >
