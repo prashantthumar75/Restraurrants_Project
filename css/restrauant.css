@@ -16,14 +16,7 @@
     height: 300px;
     opacity: 0.5;
 }
-
-/* .carousel-control-prev {
-    align-items: center;
-    justify-content: start;
-    text-align: center;
+.carousel-item img {
+    height: 450px;
+    width: 1100px;
 }
-.carousel-control-next {
-    align-items: center;
-    justify-content: end;
-    text-align: center;
-} */

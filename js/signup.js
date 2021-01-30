@@ -1,8 +1,8 @@
+let FirstName;
 $(document).ready(function () {
     // predefine elements 
     $("#signupBtnChange").css('border-bottom', '2px solid black')
     $("#loginSection").css('display', 'none')
-
 
     $('#signupBtnChange').click(function (e) {
         e.preventDefault();
@@ -21,7 +21,7 @@ $(document).ready(function () {
         $("#loginSection").css('display', 'block')
         $("#signupSection").css('display', 'none')
     });
-
+    
     $('#signUpForm').submit(function (e) {
         e.preventDefault();
 
@@ -34,17 +34,22 @@ $(document).ready(function () {
                 FirstName: $('#firstName').val(),
                 LastName: $('#lastName').val(),
                 Password: $('#password').val(),
-                Gender: $('#gender').val(),
+                Gender: $('[name=gender]').val(),
                 Address: $('#address').val(),
                 Email: $('#emailid').val(),
                 mobileNumber: $('#mobileNumber').val()
             }
             ,
-            // data: $('#signUpForm').serialize(),
             success: function (response) {
-                // console.log(data);
+                FirstName =  $('#firstName').val();
+              debugger
+                console.log(firstName);
+                window.location.replace('http://127.0.0.1:5501/index.html')
             }
         });
+   
     });
+
 });
 
+// export {FirstName};

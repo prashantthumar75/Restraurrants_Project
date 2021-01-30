@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <title>PINTCHOFSALT - Homepage</title>
     <link rel="stylesheet" href="./css/style.css">
+    
 </head>
 
 <body class="container-fluid">
@@ -20,7 +21,15 @@
                 <h3>PINCHOFSALT</h3>
             </div>
             <div class="col-md-6 text-end">
-                <h3 class="text-decoration-underline">UserName</h3>
+                <h3 class="text-decoration-underline"></h3>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        UserName
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./html/profile.html">Profile</a></li>
+                    </ul>
+                  </div>
             </div>
         </div>
         <!-- <div class="row firstNav mt-4 d-flex">
@@ -85,13 +94,16 @@
     <div class="restrauantList">
         <div class="row" id="restrauantPhotoList">
         </div>
-       
+        <div id="noResult" style="display: none;">
+            <h6>No Result Found!</h6>
+        </div>
     </div>
+
     <footer class="pt-5 mt-5 pb-2">
         <div class="row px-5">
             <div class="col-md-4">
                 <h5>About US</h5>
-                <p>Terms</p>
+                <a href="./html/terms.html" class="text-decoration-none" style="color: black;">Terms</p> </a>
                 <div class="mt-3">
                     <h5>Contact US <i class="fas fa-phone-alt"></i></h5>
                     <span>pinchofsalt@gmail.com</span>
@@ -101,24 +113,24 @@
             <div class="col-md-4 ps-5">
                 <div class="ms-5">
                     <h5>GET HELP</h5>
-                    <p>FAQs</h6>
+                    <a href="./html/faqs.html" class="text-decoration-none" style="color: black;"><p>FAQs</h6> </a>
                 </div>
             </div>
             <div class="col-md-4 text-end pe-5">
                 <h5 class="pe-4">Follow us</h5>
                 <ul class="list-unstyled socialMedia">
                     <li>
-                        <a href="#">
+                        <a href="https://www.facebook.com/">
                             <i class="p-3 fab fa-facebook"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="https://www.instagram.com/">
                             <i class="p-3 fab fa-instagram"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="https://www.linkedin.com/">
                             <i class="p-3 fab fa-linkedin"></i>
                         </a>
                     </li>
